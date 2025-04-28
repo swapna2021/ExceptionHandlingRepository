@@ -1,0 +1,9 @@
+2025-04-28 15:39:57 INFO  App:13 - Application started
+2025-04-28 15:39:57 INFO  App:15 - Object create to Person Person(name=Swapna, id=123, age=13)
+2025-04-28 15:39:57 INFO  App:18 - Invoking person checkAge method
+2025-04-28 15:39:57 DEBUG Person:28 - throwing AgeNotSufficientException because person age13 is less than 18
+2025-04-28 15:39:57 DEBUG App:22 - Catching AgeNotSufficientException :{}
+com.ust.ProjectOnThrow.AgeNotSufficientException: person age is less than 18
+	at com.ust.ProjectOnThrow.Person.checkAge(Person.java:29)
+	at com.ust.ProjectOnThrow.App.main(App.java:19)
+2025-04-28 15:39:57 INFO  App:26 - Person app completed

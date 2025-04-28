@@ -1,0 +1,28 @@
+2025-04-28 12:01:12 INFO  App:14 - Application Started
+2025-04-28 12:01:12 INFO  App:19 - Apllication completed
+2025-04-28 12:01:58 INFO  App:14 - Application Started
+2025-04-28 12:05:14 INFO  App:14 - Application Started
+2025-04-28 12:05:14 ERROR App:21 - Excepption occuredjava.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "str" is null
+2025-04-28 12:05:14 INFO  App:24 - Apllication completed
+2025-04-28 12:08:17 INFO  App:14 - Application Started
+2025-04-28 12:08:17 ERROR App:21 - Runtime Exception occured {} 
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "str" is null
+	at com.ust.ExceptionHandlingPrj.App.main(App.java:18)
+2025-04-28 12:08:17 INFO  App:27 - Apllication completed
+2025-04-28 12:09:48 INFO  App:14 - Application Started
+2025-04-28 12:09:48 ERROR App:21 - Runtime Exception occured {} 
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "str" is null
+	at com.ust.ExceptionHandlingPrj.App.main(App.java:18)
+2025-04-28 12:09:48 INFO  App:28 - Apllication completed
+2025-04-28 12:12:29 INFO  App:14 - Application Started
+2025-04-28 12:12:29 ERROR App:21 - Runtime Exception occured {} 
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "str" is null
+	at com.ust.ExceptionHandlingPrj.App.main(App.java:18)
+2025-04-28 12:12:29 INFO  App:28 - Apllication completed
+2025-04-28 12:16:01 INFO  App:14 - Application Started
+2025-04-28 12:16:01 INFO  App:31 - Apllication completed
+2025-04-28 12:18:17 INFO  App:14 - Application Started
+2025-04-28 12:18:17 INFO  App:21 - null pointer exception occured {} 
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "str" is null
+	at com.ust.ExceptionHandlingPrj.App.main(App.java:18)
+2025-04-28 12:18:17 INFO  App:32 - Apllication completed

@@ -1,0 +1,19 @@
+2025-04-28 12:34:56 INFO  MyExceptionsClass:15 - MyExceptionsClass started
+2025-04-28 12:34:56 INFO  MyExceptionsClass:18 - Reading a,b values
+2025-04-28 12:35:05 INFO  MyExceptionsClass:23 - Result is 2 
+2025-04-28 12:35:05 INFO  MyExceptionsClass:25 - Application completed
+2025-04-28 12:35:20 INFO  MyExceptionsClass:15 - MyExceptionsClass started
+2025-04-28 12:35:20 INFO  MyExceptionsClass:18 - Reading a,b values
+2025-04-28 12:39:09 INFO  MyExceptionsClass:15 - MyExceptionsClass started
+2025-04-28 12:39:09 INFO  MyExceptionsClass:18 - Reading a,b values
+2025-04-28 12:39:16 DEBUG MyExceptionsClass:26 - Arithmetic exception occured due to value b 0
+2025-04-28 12:39:16 INFO  MyExceptionsClass:28 - Result is 0 
+2025-04-28 12:39:16 INFO  MyExceptionsClass:30 - Application completed
+2025-04-28 12:40:12 INFO  MyExceptionsClass:15 - MyExceptionsClass started
+2025-04-28 12:40:12 INFO  MyExceptionsClass:18 - Reading a,b values
+2025-04-28 12:40:16 DEBUG MyExceptionsClass:26 - Arithmetic exception occured due to value b 0
+2025-04-28 12:40:16 INFO  MyExceptionsClass:27 - Eception type is {}
+java.lang.ArithmeticException: / by zero
+	at com.ust.ExceptionHandlingPrj.MyExceptionsClass.main(MyExceptionsClass.java:23)
+2025-04-28 12:40:16 INFO  MyExceptionsClass:29 - Result is 0 
+2025-04-28 12:40:16 INFO  MyExceptionsClass:31 - Application completed
