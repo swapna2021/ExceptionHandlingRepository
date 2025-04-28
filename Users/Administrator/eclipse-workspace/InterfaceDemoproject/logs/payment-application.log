@@ -1,0 +1,5 @@
+2025-04-28 11:38:51 INFO  PaymentApplication:12 - Payment Application started
+2025-04-28 11:38:51 INFO  PaymentServiceClass:25 - processing payment of 2000.0 amount
+2025-04-28 11:38:51 INFO  PaymentServiceClass:30 - payment of 2000.0 amount done successfully
+2025-04-28 11:38:51 INFO  PaymentServiceClass:13 - Aduditing started
+2025-04-28 11:38:51 ERROR PaymentServiceClass:15 - invalid transaction id
