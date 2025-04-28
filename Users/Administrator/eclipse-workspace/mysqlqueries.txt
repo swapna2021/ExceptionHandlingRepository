@@ -1,0 +1,43 @@
+To create database
+create database ustdb;
+
+To use db
+Use ustdb;
+
+to see all databases
+show database;
+
+to see all tables
+show tables;
+
+to create table
+create table usertable (uid numeric primary key,uname varchar(15),pwd varchar(15));
+
+To add column email
+alter table usertable add column email varchar(25);
+
+to add constraint
+alter table usertable add constraint chk  check (age>18);
+
+to drop constraint
+alter table usertable drop constraint chk;
+
+to change column name pwd to password
+alter table usertable change pwd password varchar(15);
+
+to delete column age
+alter table usertable drop column age;
+
+to insert a record into usertable
+insert into usertable values (2,'swapna','swapna','swapna.gmail.com',25);
+
+
+to update age of record uid=1
+update usertable set age=23 where uid=1;
+
+to delete record uid=1
+delete from usertable where uid=1;
+
+
+
+
